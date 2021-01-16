@@ -2,6 +2,7 @@ const express = require ('express')
 const mongoose = require ('mongoose')
 const bodyParser = require ('body-parser')
 const Cors = require ('cors')
+const path = require('path')
 const passport = require ('passport')
 const app = express()
 
